@@ -1,0 +1,43 @@
+#first-page {
+    text-align: center;
+    padding-top: 5em;
+    page-break-after: always;
+}
+
+#first-page h1 {
+    font-size: 2em;
+    text-align: center;
+    page-break-before: avoid;
+    page-break-after: avoid;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+#first-page h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+    page-break-before: avoid;
+    page-break-after: avoid;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+#first-page header {
+    margin-top: 0;
+}
+
+#first-page #title {
+    margin-top: 12em;
+}
+
+#first-page #about {
+    margin-top: 14em;
+    text-align: left;
+    padding-left: 50%;
+}
+
+#first-page footer {
+    page-break-before: avoid;
+    margin-top: 14em;
+}
