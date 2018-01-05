@@ -1,0 +1,37 @@
+## Private
+_config/
+_database/
+__notepad__*
+
+## Compiled
+__pycache__/
+*.pyc
+~$*
+*.spec
+
+## Distribution / packaging
+build/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+sdist/
+*.egg-info/
+*.egg
+
+## Django
+*.log
+*.sqlite3
+_static
+_media
+
+## Sphinx documentation
+docs/_build/
+_docs/
+_build/
+_book/
+_slides/
+
+## IDE
+.idea
